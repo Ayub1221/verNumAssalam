@@ -34,3 +34,18 @@ MarketStates [ 'create', 'update', 'delete', 'response' ]?
 | 200       | `0`     | Success               | Data                      |
 | 404       | `51000` | Category not found        | Data related to the error |
 | 405       | `51001` | Category already exists      | Description of the error  |
+
+### Example requests/responses
+
+#### Request:
+
+```shell script
+curl --location --request POST 'http://localhost:8000/offer/create' \
+--header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwaG9uZV9udW1iZXIiOiIrOTk4OTA5OTY5OTY2IiwiaWF0IjoxNjE2NjcxMjQ5LCJleHAiOjE2MTcyNzYwNDl9.y3KCmqQef31cG9NGtY01JkggV0C1zIw5vwjjB7-Uvzg' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+"name":"Сарваржон Гафуров",
+"name_lang":{"en":"Сарваржон Гафуров","ru":"Сарваржон Гафуров"},
+"category":"60a6451e4b9fbb842a74b940",
+"image":"/uploads/file-9a286df3d33d2a052216ee29e1ec885a.png"}'
+```

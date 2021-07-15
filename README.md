@@ -19,8 +19,8 @@ MarketStates [ 'pending', 'open', 'offer-awarded', 'offer-accepted', 'completed'
 | `name`                   | yes       | "Fruite, Chemical, Auto"                                 | enum ['buy', 'sell']    |
 | `name_lang`              | yes       |                                                          | Sends lang choosen |
 | ` icon`                  | yes       |                                                          | Orders             |
-| ` order`                 | yes       | "1,2,3"                               | Orders                     |
-| `is_available`           | yes       | "605a99d9d8df75fe33ed02f9"                               | country                 |
+| ` order`                 | yes       | "1,2,3"                               | Data need to show                     |
+| `is_available`           | yes       | "True / False"                               | XXXX                |
 | ` company_id`              | yes       | "605a9a67d8df75fe33ee46e4"                               | region                  |
 
 

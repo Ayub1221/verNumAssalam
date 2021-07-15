@@ -16,12 +16,12 @@ MarketStates [ 'create', 'update', 'delete', 'response' ]?
 
 | Name                     | Mandatory | Example                                                  | Note                    |
 | ------------------------ | --------- | -------------------------------------------------------- | ----------------------- |
-| `name`                   | yes       | "Fruite, Chemical, Auto"                                 | enum ['buy', 'sell']    |
+| `name`                   | yes       | "Fruite, Chemical, Auto"                                 | Choose    |
 | `name_lang`              | yes       |                                                          | Sends lang choosen |
 | ` icon`                  | yes       |                                                          | Orders             |
 | ` order`                 | yes       | "1,2,3"                               | Data need to show                     |
 | `is_available`           | yes       | "True / False"                               | XXXX                |
-| ` company_id`              | yes       | "605a9a67d8df75fe33ee46e4"                               | region                  |
+| ` company_id`              | yes       | "605a9a67d8df75fe33ee46e4"                               | ID                  |
 
 
 

@@ -7,7 +7,7 @@ Verification phone number - sending number to the Telegram  Channel |
 
 # Market
 
-MarketStates [ 'pending', 'open', 'offer-awarded', 'offer-accepted', 'completed' ]?
+MarketStates [ 'create', 'update', 'delete', 'response' ]?
 
 ## Category create
 
